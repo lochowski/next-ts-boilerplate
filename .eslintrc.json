@@ -5,7 +5,18 @@
   "rules": {
     "prettier/prettier": "error",
     "no-console": 2,
+    "prefer-const": "error",
 
-    "@typescript-eslint/no-var-requires": "error"
+    "@typescript-eslint/no-inferrable-types": "off",
+    "@typescript-eslint/no-var-requires": "error",
+    "@typescript-eslint/typedef": [
+      "error",
+      {
+        "memberVariableDeclaration": true,
+        "parameter": true,
+        "propertyDeclaration": true,
+        "variableDeclaration": true
+      }
+    ]
   }
 }
