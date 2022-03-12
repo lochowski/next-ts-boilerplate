@@ -18,5 +18,13 @@
         "variableDeclaration": true
       }
     ]
-  }
+  },
+  "overrides": [
+    {
+      "files": "**/*.styled.ts",
+      "rules": {
+        "@typescript-eslint/typedef": "off"
+      }
+    }
+  ]
 }
