@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components'
 
 import { GlobalStyles, theme } from '@/base/styles/config'
 
-const MyApp: React.VFC<AppProps> = ({ Component, pageProps }) => {
+const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
       <GlobalStyles />

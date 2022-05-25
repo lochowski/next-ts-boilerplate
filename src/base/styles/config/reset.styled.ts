@@ -91,7 +91,6 @@ export const reset = css`
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
   }
 
@@ -130,7 +129,6 @@ export const reset = css`
   q:before,
   q:after {
     content: '';
-    content: none;
   }
 
   table {

@@ -12,7 +12,7 @@ interface HeadProps {
   twitterSite?: string
 }
 
-const Seo: React.VFC<HeadProps> = ({
+const Seo: React.FC<HeadProps> = ({
   description,
   title,
   url,
